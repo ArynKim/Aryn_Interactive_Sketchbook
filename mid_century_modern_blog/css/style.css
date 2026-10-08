@@ -1,0 +1,90 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+
+body {
+    background-color: #cde3f2;
+    font-family: "Josefin Sans", "Lato", sans-serif;
+    border-right: 1.5in solid #f29a4e;
+    border-left: 1.5in solid #f29a4e;
+}
+
+nav, nav a{
+    color: #047f8c;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 75px;
+}
+
+ h1, h1 a{
+    font-size: 37px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #3a400c;
+}
+
+h3 {
+    color:#047f8c;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
+article h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 22.5px;
+    font-weight: 700;
+    color: black;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
+article p {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
+aside p {
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
+aside ul li a{
+    color: #3a400c;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: bold;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+
+footer {
+    background-color: #04adbf;
+    padding: 16px;
+}
+
+footer .social-links, footer .social-links a{
+    color:#3a400c;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer p, footer p a {
+    color:#3a400c;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
