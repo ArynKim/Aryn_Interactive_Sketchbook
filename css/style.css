@@ -16,13 +16,16 @@ body {
     background-color: #e7dfd7;
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
+    letter-spacing: 0.15px;
 }
 
 .header {
     text-align: center;
     font-family: "Dokdo", system-ui;
     font-weight: bold;
-    font-size: 20px;
+    font-size: larger;
+    line-height: 200%;
+    margin-top: 2%;
 }
 
 .banner {
@@ -31,7 +34,7 @@ body {
     background-position: center;
     position: relative;
     width: 100%;
-    padding: 2%;
+    padding: 2.5%;
 }
 
 .navbar, .navbar a {    
@@ -61,6 +64,8 @@ body {
     border-radius: 9px;
 }
 
+/* Content */
+
 h3 {    
     color: #533936;
     text-align: center;
@@ -71,7 +76,7 @@ h3 {
 }
 
 .projectsOne {
-    padding: 2% 15% 2% 15%;
+    padding: 2% 18% 2% 18%;
 }
 
 /* Project titles */
@@ -93,6 +98,8 @@ h3 {
 
 .projectsOne p {
     text-indent: 30px;
+    line-height: 25px;
+
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -101,5 +108,7 @@ h3 {
 
 .reflection p {
     text-indent: 30px;
+    line-height: 25px;
+
     padding: 35px 15% 100px 15%;
 }
