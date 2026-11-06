@@ -12,7 +12,6 @@ go ahead and play with these, can you get the colors to change? What do you noti
  */
 
 body {
-
     color: #533936;
     background-color: #e7dfd7;
     font-family: 'Barlow', sans-serif;
@@ -56,6 +55,8 @@ body {
 .navbar a:hover, a:focus {
     background-color: #e7dfd7;
     color: #533936;
+    font-weight: 600;
+
     padding: 4px;
     border-radius: 9px;
 }
@@ -70,7 +71,7 @@ h3 {
 }
 
 .projectsOne {
-    padding: 2% 10% 2% 10%;
+    padding: 2% 15% 2% 15%;
 }
 
 /* Project titles */
@@ -100,5 +101,5 @@ h3 {
 
 .reflection p {
     text-indent: 30px;
-    padding: 40px 10% 100px 10%;
+    padding: 35px 15% 100px 15%;
 }

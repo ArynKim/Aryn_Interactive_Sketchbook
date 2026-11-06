@@ -10,10 +10,46 @@ for now, you can leave these alone */
 /* Css is how we add all things style, below there are two simple styles added
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
+.navbar, .navbar a {    
+    font-family: 'Barlow', sans-serif;
+    background-color: #533936;
+    color: #f6f1ed;
+    font-size: 15px;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8%;
+    padding: 4px;
+}
+
+.navbar a:hover, a:focus {
+    background-color: #e7dfd7;
+    color: #533936;
+    font-weight: 600;
+
+    padding: 4px;
+    border-radius: 9px;
+}
 
 body {
+    color: #533936;
+    background-color: #e7dfd7;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+}
 
-    color: #26241C;
-    background-color: #F2F0D8;
+h3 {    
+    color: #533936;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+
+    padding: 55px 2% 20px 2%;
 }
 
