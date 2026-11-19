@@ -75,6 +75,11 @@ h3 {
     padding: 55px 2% 20px 2%;
 }
 
+p {
+    text-indent: 30px;
+    line-height: 25px;
+}
+
 .projectsOne {
     padding: 2% 18% 2% 18%;
 }
@@ -97,18 +102,20 @@ h3 {
 /* Project desc */
 
 .projectsOne p {
-    text-indent: 30px;
-    line-height: 25px;
-
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
 /* Reflection */
 
-.reflection p {
-    text-indent: 30px;
-    line-height: 25px;
+footer {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: #c1b0a8;
+}
 
-    padding: 35px 15% 100px 15%;
+.reflection p {
+    padding: 40px 15% 100px 15%;
+    background-color: #c1b0a8;
+    
 }
