@@ -10,6 +10,33 @@ for now, you can leave these alone */
 /* Css is how we add all things style, below there are two simple styles added
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
+
+body {
+    color: #533936;
+    background-color: #e7dfd7;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+}
+
+.header {
+    text-align: center;
+    font-family: "Dokdo", system-ui;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 200%;
+    margin-top: 2%;
+}
+
+.banner {
+    background-image: url('https://i.postimg.cc/pV1TqfQ3/web-banner.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    padding: 2.5%;
+}
+
 .navbar, .navbar a {    
     font-family: 'Barlow', sans-serif;
     background-color: #533936;
@@ -29,7 +56,7 @@ go ahead and play with these, can you get the colors to change? What do you noti
 }
 
 .navbar a:hover, a:focus {
-    background-color: #e7dfd7;
+    background-color: #c1b0a8;
     color: #533936;
     font-weight: 600;
 
@@ -37,11 +64,15 @@ go ahead and play with these, can you get the colors to change? What do you noti
     border-radius: 9px;
 }
 
-body {
-    color: #533936;
-    background-color: #e7dfd7;
-    font-family: 'Barlow', sans-serif;
-    font-size: 16px;
+section {
+    padding: 3% 18% 3% 18%;
+    margin-bottom: 9rem;
+}
+
+p {
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 2% 0% 2% 0%;
 }
 
 h3 {    
@@ -53,3 +84,43 @@ h3 {
     padding: 55px 2% 20px 2%;
 }
 
+h4 {
+    color:#533936;
+    font-size: 23px;
+
+    text-decoration: none;
+    text-align: center;
+    padding: 3.5px;
+}
+
+h4 a {
+    color: #533936;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h4 a:hover, a:focus {
+    background-color: #c1b0a8;
+
+    padding: 4px;
+    border-radius: 9px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+article img {
+    max-height: 500px;
+    width: auto;
+}
+
+/* Reflection */
+
+footer {
+    padding: 4rem 18% 9rem 18%;
+    background-color: #c1b0a8;
+}
