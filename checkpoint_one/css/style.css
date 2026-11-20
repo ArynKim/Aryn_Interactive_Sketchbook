@@ -56,7 +56,7 @@ body {
 }
 
 .navbar a:hover, a:focus {
-    background-color: #e7dfd7;
+    background-color: #c1b0a8;
     color: #533936;
     font-weight: 600;
 
@@ -66,4 +66,61 @@ body {
 
 section {
     padding: 2% 18% 2% 18%;
+    margin-bottom: 9rem;
+}
+
+p {
+    text-indent: 30px;
+    line-height: 25px;
+    padding: 2% 0% 2% 0%;
+}
+
+h3 {    
+    color: #533936;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+
+    padding: 55px 2% 20px 2%;
+}
+
+/* Content */
+
+h4 {
+    color:#533936;
+    font-size: 20px;
+
+    text-decoration: none;
+    padding: 1%;
+    text-align: center;
+}
+
+.number {
+    font-size:2rem;
+    padding: 3%;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 3px;
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+  border: thin solid #533936;
+}
+
+/* 7: 11/17/26 */
+
+.sevenPics {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.sevenPics img {
+    max-width: 49.533%;
 }

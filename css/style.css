@@ -56,7 +56,7 @@ body {
 }
 
 .navbar a:hover, a:focus {
-    background-color: #e7dfd7;
+    background-color: #c1b0a8;
     color: #533936;
     font-weight: 600;
 
@@ -82,6 +82,7 @@ p {
 
 .projectsOne {
     padding: 2% 18% 2% 18%;
+    margin-bottom: 4rem;
 }
 
 /* Project titles */
@@ -94,7 +95,7 @@ p {
 }
 
 .projectsOne h4 a:hover, a:focus {
-    background-color: #f6f1ed;
+    background-color: #c1b0a8;
     padding: 3.5px;
     border-radius: 9px;
 }
@@ -109,13 +110,13 @@ p {
 /* Reflection */
 
 footer {
-    padding-top: 40px;
-    padding-bottom: 100px;
+    padding-top: 4rem;
+    padding-bottom: 9rem;
     background-color: #c1b0a8;
 }
 
 .reflection p {
-    padding: 40px 15% 100px 15%;
     background-color: #c1b0a8;
-    
+    padding-right: 18%;
+    padding-left: 18%;
 }
