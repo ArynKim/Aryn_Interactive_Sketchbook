@@ -118,10 +118,10 @@ article {
 }
 
 article img {
-    max-height: 500px;
-    width: auto;
+    max-width: 50%;
+    height: auto;
 
-    margin-bottom: 4%;
+    margin-bottom: 1rem;
 }
 
 /* Reflection */
