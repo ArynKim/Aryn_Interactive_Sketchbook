@@ -59,6 +59,7 @@ body {
     background-color: #c1b0a8;
     color: #533936;
     font-weight: 600;
+    text-decoration: underline 1.8px;
 
     padding: 4px;
     border-radius: 9px;
@@ -100,6 +101,7 @@ a {
 
 a:hover, a:focus {
     background-color: #c1b0a8;
+    text-decoration: underline 1.8px;
 
     padding: 4px;
     border-radius: 9px;
@@ -117,6 +119,8 @@ a:hover, a:focus {
     width: 63.4%;
     aspect-ratio: 16 / 9;
     height: auto;
+
+    border: thin solid #533936;
 }
 
 /* Reflection */
