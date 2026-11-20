@@ -110,13 +110,11 @@ a:hover, a:focus {
 /* Video */
 
 .clip iframe {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin: 0 auto;
 
-    margin: 1% 18% 3% 18%;
 
-    width: 63.4%;
+    max-width: 48%;
     aspect-ratio: 16 / 9;
     height: auto;
 

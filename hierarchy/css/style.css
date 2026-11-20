@@ -11,9 +11,37 @@ for now, you can leave these alone */
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
 
+.navbar, .navbar a {    
+    font-family: 'Barlow', sans-serif;
+    background-color: #533936;
+    color: #f6f1ed;
+    font-size: 15px;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8%;
+    padding: 4px;
+}
+
+.navbar a:hover, a:focus {
+    background-color: #c1b0a8;
+    color: #533936;
+    font-weight: 600;
+    text-decoration: underline 1.8px;
+
+    padding: 4px;
+    border-radius: 9px;
+}
+
 body {
 
     color: #533936;
-    background-color: #f6f1ed;
+    background-color: #e7dfd7;
 }
 

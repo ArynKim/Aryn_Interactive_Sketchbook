@@ -92,20 +92,20 @@ h4 {
     font-size: 20px;
 
     text-decoration: none;
-    padding: 1%;
+    padding-bottom: 2%;
     text-align: center;
 }
 
 .number {
-    font-size:2rem;
-    padding: 3%;
-    text-decoration: underline;
+    font-size: 2rem;
+    padding-top: 4%;
+    /*text-decoration: underline;
     text-decoration-thickness: 4px;
-    text-underline-offset: 3px;
+    text-underline-offset: 3px;*/
 }
 
 img {
-  max-width: 70%;
+  max-width: 65%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -113,15 +113,14 @@ img {
   border: thin solid #533936;
 }
 
-/* 7: 11/17/26 */
-
-.sevenPics {
+.pics {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 3px;
 }
 
-.sevenPics img {
+.pics img {
     max-width: 49.533%;
+    height: auto;
 }
